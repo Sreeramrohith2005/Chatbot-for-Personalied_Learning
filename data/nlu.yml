@@ -1,0 +1,46 @@
+version: "3.1"
+nlu:
+  - intent: greet
+    examples: |
+      - Hello
+      - Hi
+      - Hey
+      - Good morning
+      - Good evening
+
+  - intent: goodbye
+    examples: |
+      - Goodbye
+      - Bye
+      - See you
+      - Have a nice day
+      - Take care
+
+  - intent: ask_courses
+    examples: |
+      - Can you show me the courses?
+      - What courses do you offer?
+      - Tell me about the available courses
+      - What courses are available?
+      - Show me the list of courses
+
+  - intent: ask_about_bot
+    examples: |
+      - What can you do?
+      - Tell me about yourself
+      - What is your purpose?
+      - What can you help me with?
+
+  - intent: thank_you
+    examples: |
+      - Thanks
+      - Thank you
+      - Thanks a lot
+      - I appreciate it
+
+  - intent: ask_help
+    examples: |
+      - I need help
+      - Can you assist me?
+      - Can you help me with something?
+      - I need some assistance

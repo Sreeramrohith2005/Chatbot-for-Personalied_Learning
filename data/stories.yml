@@ -1,0 +1,26 @@
+version: "3.1"
+stories:
+  - story: user asks about courses
+    steps:
+      - intent: ask_courses
+      - action: action_get_course_info
+
+  - story: user greets the bot
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - story: user says goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: user thanks the bot
+    steps:
+      - intent: thank_you
+      - action: utter_thank_you
+
+  - story: user asks for help
+    steps:
+      - intent: ask_help
+      - action: utter_help
