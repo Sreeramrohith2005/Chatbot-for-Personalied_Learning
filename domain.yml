@@ -1,0 +1,25 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - ask_courses
+  - ask_about_bot
+  - thank_you
+  - ask_help
+
+actions:
+  - action_get_course_info
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I assist you today?"
+  utter_goodbye:
+    - text: "Goodbye! Have a great day!"
+  utter_thank_you:
+    - text: "You're welcome! Let me know if you need anything else."
+  utter_help:
+    - text: "I can assist you with finding courses, answering questions about the bot, or just chatting. How can I help you?"
+
+entities:
+  - course
